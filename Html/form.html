@@ -6,15 +6,44 @@
     <title>Forms</title>
 </head>
 <body>
-    <form>
+    <!-- ? form => action -->
+    <form action="/Html/hw.html" method="get"> 
         <label for="name">Enter yout name:</label>
-        <input type="text" placeholder="Enter your name" id="name" >
+        <input type="text" placeholder="Enter your name" id="name" name="NAME" value="John Doe" minlength="2" maxlength="20" required>
 
         <br>
         <br>
 
         <label for="age">Enter your age:</label>
-        <input type="number" placeholder="Enter your age" id="age">
+        <input type="number" placeholder="Enter your age" id="age" name="AGE" required min="0" max="100">
+
+        <br>
+        <br>
+        
+        <label for="pw">Enter your password:</label>
+        <input type="password" name="PASSWORD" id="pw" required min="8">
+        
+        <br>
+        <br>
+
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" id="DOB" name="DOB">
+
+        <br>
+        <br>
+
+        <label for="color">Colour:</label>
+        <input type="color" id="color" name="color" required>
+
+        <br>
+        <br>
+
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
 
 
     </form>
