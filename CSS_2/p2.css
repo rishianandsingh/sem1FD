@@ -1,0 +1,56 @@
+#item1 {
+background-color: orange; 
+height: 100px;
+width: 100px;
+padding: 10px;
+
+border-width: 10px;
+border-color: black;
+border-style: solid;
+margin: 50px auto;
+
+box-sizing: border-box;
+}
+
+
+#item2 {
+background-color: white;
+height: 100px;
+width: 100px;
+padding: 10px;
+
+border-width: 10px;
+border-color: black;
+border-style: solid;
+margin: 50px auto;
+
+box-sizing: border-box;
+}
+
+#item3 {
+background-color: green;
+height: 100px;
+width: 100px;
+padding: 10px;
+
+border-width: 10px;
+border-color: black;
+border-style: solid;
+margin: 50px auto;
+
+box-sizing: border-box;
+}
+
+#item4 {
+background-color: blue;
+height: 100px;
+width: 100px;
+padding: 10px 20px 30px;
+
+border-width: 10px;
+border-color: black;
+border-style: solid;
+margin: 50px auto;
+
+box-sizing: border-box;
+}
