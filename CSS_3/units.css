@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1000px;
+}
+
+.item-1{
+    height: 60%;
+    width: 400px;
+    background-color: orange;
+}
+
+.item-2{
+    height: 400px;
+    width: 60%;
+    background-color: green;
+}
+
+.item-3{
+    height: 50vw;
+    width: 50vw;
+    background-color: chartreuse;
+}
