@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+ }
+
+.a {
+    width: 100vw;
+    height: 250px;
+    background-color: grey;
+    border: solid 10px black;
+    padding: 48px;
+    margin: 20px;
+    box-sizing: content-box;
+}
+
+.b {
+    width: 50%;
+    height: 50%;
+    background-color: grey;
+    border: solid 10px black;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+}

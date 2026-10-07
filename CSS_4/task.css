@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 20px;
+    background-color: aqua;
+    overflow: scroll;
+    
+}
+
+div {
+    padding: 20px;
+    background-color: teal;
+    width: 200vw;
+}
+
