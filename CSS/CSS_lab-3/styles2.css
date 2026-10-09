@@ -48,8 +48,9 @@ a {
 .hero {
     
     position: relative;
-    background-color: rgb(137, 77, 28);
-    height: 500px;
+    /* background-color: rgb(123, 98, 78); */
+    background: linear-gradient(135deg, #877A69, #735644);
+    height: 300px;
     width: 100%;
     padding: 20px;
     text-align: center;
