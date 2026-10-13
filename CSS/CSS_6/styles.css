@@ -30,10 +30,11 @@ button {
     cursor: pointer;
     transition-property: all;
     transition-duration: 0.5s;
+    scale: 1;
 }
 
 button:hover {
-    /* scale: 1.1; */
+    scale: 1.1;
     opacity: 1;
 }
 

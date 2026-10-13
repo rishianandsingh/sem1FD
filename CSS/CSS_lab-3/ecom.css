@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgba(0, 60, 0, 0.9);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: rgba(218, 165, 32, 0.8);
+    border: none;
+}
+
+.hero {
+    margin-top: 58px;
+    /* background-color: rgba(167, 98, 8, 0.8); */
+    background: linear-gradient(135deg, #877A69, #735644);
+    text-align: center;
+    padding: 24px 0 48px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.hero-contents {
+    width: 50%;
+    margin: 0 auto;
+
+    h3 {
+        color: #a29567;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+
+main {
+    background-color: rgb(233, 231, 206);
+    padding: 24px
+}
+
+.main-section-heading {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.card {
+    border-radius: 20px;
+    border: solid 1px grey;
+    background-color: white;
+}
+
+.card-color {
+    height: 150px;
+    border-radius: 20px 20px 0 0 ;
+    padding: 12px;
+}
+
+.new-label {
+    background-color: goldenrod;
+    padding: 2px 8px;
+    font-size: 10px;
+    border-radius: 20px;
+    color: rgb(219, 202, 202);
+}
+
+#cardA {
+    background-color: cadetblue;
+}
+
+#cardB {
+    background-color: bisque;
+}
+
+#cardC {
+    background-color: hotpink;
+}
+
+
+.card-content {
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    padding: 16px;
+}
+
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+}
